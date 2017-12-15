@@ -104,8 +104,8 @@ a:hover {
  */
 /* line 108, ../../src/styles/_normalize.scss */
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-size: 1.8em;
+  margin: 0;
 }
 
 /**
@@ -906,7 +906,8 @@ img {
 /* line 76, ../../src/styles/_base.scss */
 h2 {
   font-size: 1.5em;
-  line-height: 1.7em;
+  line-height: inherit;
+  margin: 0 0 0.1em 0;
 }
 
 /* line 81, ../../src/styles/_base.scss */
@@ -963,15 +964,6 @@ a {
   float: right;
 }
 
-/* line 123, ../../src/styles/_base.scss */
-.cabin {
-  position: fixed;
-  right: 0.55em;
-  bottom: 0.3em;
-  width: 2em;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
-  opacity: 0.3;
-}
 /* line 130, ../../src/styles/_base.scss */
 .cabin:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
@@ -1224,7 +1216,7 @@ code {
 /* line 1, ../../src/styles/_post.scss */
 .post {
   padding: 2em 2.9em;
-  margin: 0 0  33px;
+  margin: 0;
   background: white;
   -webkit-box-shadow: 5px 5px #e6e6e6, 4px 4px #e6e6e6, 3px 3px #e6e6e6, 2px 2px #e6e6e6, 1px 1px #e6e6e6;
   -moz-box-shadow: 5px 5px #e6e6e6, 4px 4px #e6e6e6, 3px 3px #e6e6e6, 2px 2px #e6e6e6, 1px 1px #e6e6e6;
